@@ -5,7 +5,6 @@ import time
 jogador_humano = 'X'
 jogador_ia = 'O'
 
-
 def criar_tabuleiro():
     """Cria um tabuleiro vazio para o jogo da velha."""
     return [[' ' for _ in range(3)] for _ in range(3)]
